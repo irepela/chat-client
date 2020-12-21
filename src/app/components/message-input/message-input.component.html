@@ -1,0 +1,6 @@
+<div class="input-container">
+  <input type="text" placeholder="Message" [(ngModel)]="text" (keydown.enter)="onSendMsg()"/>
+  <button class="emoji-mart emoji-btn" mat-button color="primary" (click)="onToggleEmojiPicker()">😀</button>
+  <emoji-mart class="emoji-popup" *ngIf="showEmojiPicker" (emojiSelect)="onAddEmoji($event)"></emoji-mart>
+  <button mat-button color="primary" (click)="onSendMsg()">Send</button>
+</div>

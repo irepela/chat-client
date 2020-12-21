@@ -1,0 +1,7 @@
+<mat-drawer-container class="white-container">
+  <mat-list>
+    <mat-list-item *ngFor="let user of users" (dblclick)="onUserDblClick(user)">
+      {{ user }}
+    </mat-list-item>
+  </mat-list>
+</mat-drawer-container>

@@ -1,0 +1,10 @@
+.white-container {
+  background-color: white;
+  border-radius: 8px;
+  margin: 20px;
+
+  .mat-list-base .mat-list-item {
+    color: black;
+    cursor: pointer;
+  }
+}

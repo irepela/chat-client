@@ -1,0 +1,37 @@
+.chat-container {
+
+  .toolbar-title {
+    color: gray;
+  }
+
+  .chat-container {
+    height: 93.4vh;
+
+    mat-sidenav-content {
+      width: 80%;
+      background-color: white;
+
+      .gray-container {
+        height: 75vh;
+        background-color: lightgray;
+        border-radius: 8px;
+        margin: 20px;
+        border: 1px solid lightgray;
+
+        .white-row {
+          width: 98%;
+          background-color: white;
+        }
+
+        .mat-list-base .mat-list-item {
+          color: black;
+        }
+      }
+    }
+
+    mat-sidenav {
+      width: 20%;
+      background: #212121;
+    }
+  }
+}

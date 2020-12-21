@@ -1,0 +1,29 @@
+.input-container {
+  margin: 20px;
+
+  input {
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+    width: 90%;
+    padding-left: 10px;
+  }
+
+  button {
+    background-color: limegreen;
+    color: white;
+    height: 45px;
+  }
+
+  .emoji-btn {
+    background-color: white;
+    border: 2px solid lightgray;
+  }
+
+  .emoji-popup {
+    position: absolute;
+    right: 90px;
+    bottom: 135px;
+    z-index: 999;
+  }
+}
